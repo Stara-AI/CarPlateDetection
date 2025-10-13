@@ -1,0 +1,9 @@
+train: E:\MyCVProgram\CarPlateDetection\datasets\PlateData\images\train  # train images (relative to 'path') 128 images
+val: E:\MyCVProgram\CarPlateDetection\datasets\PlateData\images\val  # val images (relative to 'path') 128 images
+test:  E:\MyCVProgram\CarPlateDetection\datasets\PlateData\images\test # val images (optional)
+
+# number of classes
+nc: 1
+
+# Classes
+names: ['LicensePlate']
